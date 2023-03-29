@@ -1,5 +1,10 @@
-# repository-details
+```bash
 
-Sr.No |  Project-details               |          branch-details                                      |        branch-link
-1.    |  Jenkins Server                |          feature/spring-boot-test-case-jenkins()                      https://github.com/Maninder416/spring-boot/tree/feature/spring-boot-test-case-jenkins
+branch-details:                             |        branch name and link
+
+1. jenkins server with MySQL DB:            |        (feature/spring-boot-test-case-jenkins): https://github.com/Maninder416/spring-boot/tree/feature/spring-boot-test-case-jenkins
+
+
+
+```
   
