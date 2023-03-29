@@ -103,10 +103,43 @@
 70. aws-s3-springboot                                                  |        aws-s3-springboot
 71. aws-cicd-springboot                                                |        aws-cicd-springboot
 
+**Sr.No: 72 to branch: https://github.com/Maninder416/ci-cd-test.git**
 
 
-
-
+72. spring-scopes                                                     |        spring-scopes
+73. spring-aop                                                        |        spring-aop
+74. multithreading-practice                                           |        multithreading-practice
+75. garbage-collection                                                |        garbage-collection
+76. design-patterns                                                   |        design-patterns
+77. type-promotion                                                    |        type-promotion
+78. covarient-type                                                    |        covarient-type
+79. hashcode-equals                                                   |        hashcode-equals
+80. marker-interface                                                  |        marker-interface
+81. exceptions                                                        |        exceptions
+82. streams                                                           |        streams
+83. lambda-practice                                                   |        lambda-practice
+84. collections                                                       |        aws-cicd-springboot
+85. callbyvalue                                                       |        callbyvalue
+86. immutable-classes                                                 |        immutable-classes
+87. stack-lifo                                                        |        stack-lifo
+88. fifo-queue                                                        |        fifo-queue
+89. generics-practice                                                 |        generics-practice
+90. fail-fast                                                         |        fail-fast
+91. map-interface                                                     |       tokenizing
+92. tokenizing                                                        |        fail-fast
+93. initialization-blocks                                             |        initialization-blocks
+94. volatile-keyword                                                  |        volatile-keyword
+95. final-modifier                                                    |        final-modifier
+96. inner-classes                                                     |        inner-classes
+97. comparator-example                                                |        comparator-example
+98. comparable-example                                                |        comparable-example
+99. method-overriding                                                 |        method-overriding
+100. transient-example                                                |        transient-example
+101. stack-lifo-dynamic-array                                         |        stack-lifo-dynamic-array
+102. queue-lifo-dynamic-array                                         |        queue-lifo-dynamic-array
+103. queue-lifo                                                       |        queue-lifo
+104. inheritance                                                      |        inheritance
+105. method-overloading                                               |        method-overloading
 
 
 
