@@ -72,6 +72,24 @@
 48. security_practice                                                  |        security_practice
 49. auth2                                                              |        auth2
 50. jms                                                                |        jms
+51. soap                                                               |        soap
+52. soap_practice_again                                                |        soap_practice_again
+53. soap_practice                                                      |        soap_practice
+54. ssl_certificate_godaddy                                            |        ssl_certificate_godaddy
+55. jpa-entity-practice                                                |        jpa-entity-practice
+56. dto_practice                                                       |        dto_practice
+57. spring_boot_validation                                             |        spring_boot_validation
+58. swagger-practice                                                   |        swagger-practice
+59. spring5-mvc-app-expense-tracker-spring-jdbc-mysql                  |        spring5-mvc-app-expense-tracker-spring-jdbc-mysql
+60. thymeleaf_jdbcTemplate_assignment                                  |        thymeleaf_jdbcTemplate_assignment
+61. thymeleaf_class_assignment                                         |        thymeleaf_class_assignment
+62. thymeleaf-code                                                     |        thymeleaf-code
+63. restapi                                                            |        restapi
+64. jms-message-convertor                                              |        jms-message-convertor
+65. aop_practice                                                       |        aop_practice
+66. logger_practice                                                    |        logger_practice
+67. java_jaxb                                                          |        java_jaxb
+68. multi_threading                                                    |        multi_threading
 
 
 
