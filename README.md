@@ -17,6 +17,10 @@
 8. Kafka Avro producer-consumer and data save into DB:                  |        feature/avro-producer-example-1
 9. Kafka Avro producer-consumer stream and data save into db:           |        feature/avro-producer-consumer-stream-example
 
+**Sr.No: 10 branch: https://github.com/Maninder416/karate.git**
+
+10. karate test cases                                                   |        feature/karate-tutorial-part-1
+
 
 
 ```
