@@ -94,7 +94,37 @@
 
 **Sr.No: 69 branch: https://github.com/Maninder416/reactive-spring.git**
 
-68. reactive-spring                                                    |        reactive-spring
+69. reactive-spring                                                    |        reactive-spring
+
+
+**Sr.No: 70 to 71 branch: https://github.com/Maninder416/ci-cd-test.git**
+
+
+70. aws-s3-springboot                                                  |        aws-s3-springboot
+71. aws-cicd-springboot                                                |        aws-cicd-springboot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ```
