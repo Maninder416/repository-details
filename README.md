@@ -1,13 +1,13 @@
 ```bash
 
- ## branch-details:                                                    |        branch name and link
+**Branch-Details:                                                       |        branch name and link**
 
-Sr.No 1 to 2 branch: https://github.com/Maninder416/spring-boot
+**Sr.No 1 to 2 branch: https://github.com/Maninder416/spring-boot**
 
 1. jenkins server with MySQL DB:                                        |        (feature/spring-boot-test-case-jenkins)
 2. jenkins server with H2 DB:                                           |        feature/spring-boot-test-case-jenkins-h2
 
-Sr.No: 3 to 9 branch: https://github.com/Maninder416/apache-kafka
+**Sr.No: 3 to 9 branch: https://github.com/Maninder416/apache-kafka**
 
 3. Basic producer/consumer kafka configuration:                         |        feature/branch-1-producer-consumer-config
 4. JSON message producer/consumer convertor and save data into MySQL:   |        feature/branch-4-json-producer-consumer
