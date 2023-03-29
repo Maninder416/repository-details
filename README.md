@@ -103,7 +103,7 @@
 70. aws-s3-springboot                                                  |        aws-s3-springboot
 71. aws-cicd-springboot                                                |        aws-cicd-springboot
 
-**Sr.No: 72 to branch: https://github.com/Maninder416/ci-cd-test.git**
+**Sr.No: 72 to 105 branch: https://github.com/Maninder416/ci-cd-test.git**
 
 
 72. spring-scopes                                                     |        spring-scopes
