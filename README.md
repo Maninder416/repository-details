@@ -1,6 +1,6 @@
 ```bash
 
- **branch-details**:                                                    |        branch name and link
+ ## **branch-details**:                                                    |        branch name and link
 
 Sr.No 1 to 2 branch: https://github.com/Maninder416/spring-boot
 
