@@ -1,15 +1,16 @@
 package io.reactivestax.kubernetes.service;
 
-import io.reactivestax.kubernetes.domain.Bookmark;
 import io.reactivestax.kubernetes.dto.BookmarkDto;
+import io.reactivestax.kubernetes.dto.BookmarksDto;
+import io.reactivestax.kubernetes.mapper.BookmarkMapper;
 import io.reactivestax.kubernetes.repository.BookmarkRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import java.util.List;
 
 @Service
 @RequiredArgsConstructor
@@ -26,6 +27,7 @@ public class BookmarkService {
      *
      */
     private final BookmarkRepository bookmarkRepository;
+    private final BookmarkMapper bookmarkMapper;
 
     /**
      * We are marking it ready only as we know, we are
@@ -34,9 +36,11 @@ public class BookmarkService {
      * @return
      */
     @Transactional(readOnly = true)
-    public BookmarkDto getBookmarks(Integer page){
+    public BookmarksDto getBookmarks(Integer page){
         int pageNo = page<1 ? 0: page -1;
         Pageable pageable = PageRequest.of(pageNo,5, Sort.Direction.DESC,"createdAt");
-        return new BookmarkDto(bookmarkRepository.findAll(pageable));
+//        Page<BookmarkDto> bookmarkDtoPage= bookmarkRepository.findAll(pageable).map(bookmarkMapper::toDto);
+        Page<BookmarkDto> bookmarkDtoPage= bookmarkRepository.findBookmarks(pageable);
+        return new BookmarksDto(bookmarkDtoPage);
     }
 }

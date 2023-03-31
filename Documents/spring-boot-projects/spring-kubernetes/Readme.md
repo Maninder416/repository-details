@@ -68,10 +68,44 @@ Now output will be like this:
     "isLast": true   //Is this last page. Ans is yes.
 }
 
+5. Next step, we will create DTO class, to display the data because meantime we are just displaying
+the entity data and that is not a right approach. Sometimes, we don't want to display
+all the data. We just need to display only the important data. In that we use dto
+concept.
 
+After creating the Mapper, we just pass it in the service layer:
+Converting all the parameters to dto using map
 
+Page<BookmarkDto> bookmarkDtoPage= bookmarkRepository.findAll(pageable).map(bookmarkMapper::toDto);
 
+Still here, we are loading all the data first and then mapping it.
+For instance: bookmarkRepository.findAll(pageable), we are doing this in above query.
+That is not a right approach, because it loads all the data from database first and then
+we map it. Instead of this, we can write new method in repository layer with custom data
+that will load only required data.
 
+we can do this way:
+
+@Query("select new io.reactivestax.kubernetes.dto.BookmarkDto(b.id, b.title, b.url, b.createdAt) from Bookmark b")
+    Page<BookmarkDto> findBookmarks(Pageable pageable);
+    
+
+benefit of using dto class over entity:
+1. The main benefit of doing so is to avoid exposing sensitive or unnecessary
+ information to the outside world.
+2. Entity classes typically represent the persistence layer and are used
+ to map objects to database tables. They often contain sensitive information, 
+such as primary keys, foreign keys, and other fields that should not be
+ exposed to the outside world
+
+3. By creating a separate DTO class, you can control exactly what information
+ is exposed to the outside world. This can be particularly important when designing
+REST APIs,as you want to ensure that only the necessary information is being exposed to clients
+
+4. Another benefit of using DTOs is that they allow you to decouple the internal representation
+ of your data from the external representation. This means that you can change the internal
+representation of your data (e.g., by adding or removing fields) without affecting the external
+representation (i.e., the DTO).
 
 
 ```

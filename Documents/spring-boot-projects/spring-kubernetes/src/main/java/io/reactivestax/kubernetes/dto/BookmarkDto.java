@@ -1,35 +1,19 @@
 package io.reactivestax.kubernetes.dto;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import io.reactivestax.kubernetes.domain.Bookmark;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.data.domain.Page;
 
-import java.util.List;
+import java.time.Instant;
 
-@Setter
+@AllArgsConstructor
+@NoArgsConstructor
 @Getter
+@Setter
 public class BookmarkDto {
-    private List<Bookmark> data;
-    private Long totalElements;
-    private int totalPages;
-    private int currentPage;
-    @JsonProperty("isFirst")
-    private boolean isFirst;
-    @JsonProperty("isLast")
-    private boolean isLast;
-    private boolean hasNext;
-    private boolean hasPrevious;
-
-    public BookmarkDto(Page<Bookmark> bookmarkPage){
-        this.setData(bookmarkPage.getContent());
-        this.setTotalElements(bookmarkPage.getTotalElements());
-        this.setTotalPages(bookmarkPage.getTotalPages());
-        this.setCurrentPage(bookmarkPage.getNumber() + 1);
-        this.setFirst(bookmarkPage.isFirst());
-        this.setLast(bookmarkPage.isLast());
-        this.setHasNext(bookmarkPage.hasNext());
-        this.setHasPrevious(bookmarkPage.hasPrevious());
-    }
+    private Long id;
+    private String title;
+    private String url;
+    private Instant createdAt;
 }
