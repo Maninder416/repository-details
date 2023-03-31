@@ -15,16 +15,16 @@ public class DataInitializer implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        repository.save(new Bookmark(null,"Maninder1","dataguise1.com", Instant.now()));
-        repository.save(new Bookmark(null,"Maninder2","dataguise2.com", Instant.now()));
-        repository.save(new Bookmark(null,"Maninder3","dataguise3.com", Instant.now()));
-        repository.save(new Bookmark(null,"Maninder4","dataguise4.com", Instant.now()));
-        repository.save(new Bookmark(null,"Maninder5","dataguise5.com", Instant.now()));
-        repository.save(new Bookmark(null,"Maninder6","dataguise6.com", Instant.now()));
-        repository.save(new Bookmark(null,"Maninder7","dataguise7.com", Instant.now()));
-        repository.save(new Bookmark(null,"Maninder8","dataguise8.com", Instant.now()));
-        repository.save(new Bookmark(null,"Maninder9","dataguise9.com", Instant.now()));
-        repository.save(new Bookmark(null,"Maninder10","dataguise10.com", Instant.now()));
+//        repository.save(new Bookmark(null,"Maninder1","dataguise1.com", Instant.now()));
+//        repository.save(new Bookmark(null,"Maninder2","dataguise2.com", Instant.now()));
+//        repository.save(new Bookmark(null,"Maninder3","dataguise3.com", Instant.now()));
+//        repository.save(new Bookmark(null,"Maninder4","dataguise4.com", Instant.now()));
+//        repository.save(new Bookmark(null,"Maninder5","dataguise5.com", Instant.now()));
+//        repository.save(new Bookmark(null,"Maninder6","dataguise6.com", Instant.now()));
+//        repository.save(new Bookmark(null,"Maninder7","dataguise7.com", Instant.now()));
+//        repository.save(new Bookmark(null,"Maninder8","dataguise8.com", Instant.now()));
+//        repository.save(new Bookmark(null,"Maninder9","dataguise9.com", Instant.now()));
+//        repository.save(new Bookmark(null,"Maninder10","dataguise10.com", Instant.now()));
 
     }
 }
