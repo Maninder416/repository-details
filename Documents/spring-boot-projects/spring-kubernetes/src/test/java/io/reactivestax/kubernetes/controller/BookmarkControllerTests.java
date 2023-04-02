@@ -79,18 +79,20 @@ public class BookmarkControllerTests {
      */
     @ParameterizedTest
     @CsvSource({
-            "1"
+            "1,10,2,1,true,false,true,false"
     })
-    void shouldGetBookmarksByPageNo(int pageNo) throws Exception {
-        mockMvc.perform(get("/api/bookmarks"))
+    void shouldGetBookmarksByPageNo(int pageNo, int totalElements, int totalPages,
+                                    int currentPage, boolean isFirst, boolean isLast,
+                                    boolean hasNext, boolean hasPrevious) throws Exception {
+        mockMvc.perform(get("/api/bookmarks?page="+pageNo))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.totalElements", CoreMatchers.equalTo(10)))
-                .andExpect(jsonPath("$.totalPages", CoreMatchers.equalTo(2)))
-                .andExpect(jsonPath("$.currentPage", CoreMatchers.equalTo(1)))
-                .andExpect(jsonPath("$.hasNext", CoreMatchers.equalTo(true)))
-                .andExpect(jsonPath("$.hasPrevious", CoreMatchers.equalTo(false)))
-                .andExpect(jsonPath("$.isFirst", CoreMatchers.equalTo(true)))
-                .andExpect(jsonPath("$.isLast", CoreMatchers.equalTo(false)));
+                .andExpect(jsonPath("$.totalElements", CoreMatchers.equalTo(totalElements)))
+                .andExpect(jsonPath("$.totalPages", CoreMatchers.equalTo(totalPages)))
+                .andExpect(jsonPath("$.currentPage", CoreMatchers.equalTo(currentPage)))
+                .andExpect(jsonPath("$.hasNext", CoreMatchers.equalTo(hasNext)))
+                .andExpect(jsonPath("$.hasPrevious", CoreMatchers.equalTo(hasPrevious)))
+                .andExpect(jsonPath("$.isFirst", CoreMatchers.equalTo(isFirst)))
+                .andExpect(jsonPath("$.isLast", CoreMatchers.equalTo(isLast)));
     }
 
     /**
@@ -118,15 +120,16 @@ public class BookmarkControllerTests {
             "1,10,2,1,true,false,true,false",
             "2,10,2,2,false,true,false,true"
     })
-    void shouldGetBookmarksByMultiplePageNo(int pageNo) throws Exception {
-        mockMvc.perform(get("/api/bookmarks"))
-                .andExpect(status().isOk())
-                .andExpect(jsonPath("$.totalElements", CoreMatchers.equalTo(10)))
-                .andExpect(jsonPath("$.totalPages", CoreMatchers.equalTo(2)))
-                .andExpect(jsonPath("$.currentPage", CoreMatchers.equalTo(1)))
-                .andExpect(jsonPath("$.hasNext", CoreMatchers.equalTo(true)))
-                .andExpect(jsonPath("$.hasPrevious", CoreMatchers.equalTo(false)))
-                .andExpect(jsonPath("$.isFirst", CoreMatchers.equalTo(true)))
-                .andExpect(jsonPath("$.isLast", CoreMatchers.equalTo(false)));
+    void shouldGetBookmarksByMultiplePageNo(int pageNo, int totalElements, int totalPages,
+                                            int currentPage, boolean isFirst, boolean isLast,
+                                            boolean hasNext, boolean hasPrevious) throws Exception {
+        mockMvc.perform(get("/api/bookmarks?page="+pageNo))
+                .andExpect(jsonPath("$.totalElements", CoreMatchers.equalTo(totalElements)))
+                .andExpect(jsonPath("$.totalPages", CoreMatchers.equalTo(totalPages)))
+                .andExpect(jsonPath("$.currentPage", CoreMatchers.equalTo(currentPage)))
+                .andExpect(jsonPath("$.hasNext", CoreMatchers.equalTo(hasNext)))
+                .andExpect(jsonPath("$.hasPrevious", CoreMatchers.equalTo(hasPrevious)))
+                .andExpect(jsonPath("$.isFirst", CoreMatchers.equalTo(isFirst)))
+                .andExpect(jsonPath("$.isLast", CoreMatchers.equalTo(isLast)));
     }
 }
