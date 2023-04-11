@@ -148,7 +148,7 @@
 106. kubernetes                                                       |        feature/kubernetes-exercise-1
 
 
-**Sr.No: 107 for node js express crud operation: branch: https://github.com/Maninder416/node-js**
+**Sr.No: 107 for node js express mongo crud operation: branch: https://github.com/Maninder416/node-js**
 
 106. feature/node-crud-1                                              |        feature/node-crud-1
 
