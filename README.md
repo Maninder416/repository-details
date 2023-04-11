@@ -143,6 +143,15 @@
 104. inheritance                                                      |        inheritance
 105. method-overloading                                               |        method-overloading
 
+**Sr.No: 106 branch: https://github.com/Maninder416/spring-boot/tree/feature/kubernetes-exercise-1**
+
+106. kubernetes                                                       |        feature/kubernetes-exercise-1
+
+
+**Sr.No: 107 for node js express crud operation: branch: https://github.com/Maninder416/node-js**
+
+106. feature/node-crud-1                                              |        feature/node-crud-1
+
 
 
 
