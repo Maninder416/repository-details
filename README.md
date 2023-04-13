@@ -146,11 +146,12 @@
 **Sr.No: 106 branch: https://github.com/Maninder416/spring-boot/tree/feature/kubernetes-exercise-1**
 
 106. kubernetes                                                       |        feature/kubernetes-exercise-1
+106-a: CRUD_kubernetes_pipeline                                       |        CRUD_kubernetes_pipeline
 
 
 **Sr.No: 107 for node js express mongo crud operation: branch: https://github.com/Maninder416/node-js**
 
-106. feature/node-crud-1                                              |        feature/node-crud-1
+107. feature/node-crud-1                                              |        feature/node-crud-1
 
 
 
