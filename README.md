@@ -9,6 +9,7 @@
 
 **Sr.No: 3 to 9 branch: https://github.com/Maninder416/apache-kafka**
 
+```shell
 3. Basic producer/consumer kafka configuration:                         |        feature/branch-1-producer-consumer-config
 4. JSON message producer/consumer convertor and save data into MySQL:   |        feature/branch-4-json-producer-consumer
 5. MySQL connectors Sample:                                             |        feature/mysql-connectors-query-table
@@ -16,19 +17,24 @@
 7. Silicon Vally project:                                               |        feature/silicon-valley-project 
 8. Kafka Avro producer-consumer and data save into DB:                  |        feature/avro-producer-example-1
 9. Kafka Avro producer-consumer stream and data save into db:           |        feature/avro-producer-consumer-stream-example
+```
 
 **Sr.No: 10 branch: https://github.com/Maninder416/karate.git**
 
+```shell
 10. karate test cases                                                   |        feature/karate-tutorial-part-1
 10-a. karate test cases on jenkins server                               |        feature/karate-h2-jenkins
-
+```
 
 **Sr.No: 11 branch: https://github.com/Maninder416/event-grid/branches**
 
+```shell
 11. Event grid azure functions branches
+```
 
 **Sr.No: 12 to 40 branch: https://github.com/Maninder416/spring-boot-practice.git**
 
+```shell
 12. junit test cases spring boot                                        |        junit-test
 13. flyway spring boot                                                  |        flyway-spring-boot
 14. jooq-spring-boot                                                    |        jooq-spring-boot
@@ -58,7 +64,7 @@
 38. http-basic-login                                                    |        http-basic-login
 39. jwt-spring-security                                                 |        jwt-spring-security
 40. oauth2-spring-security                                              |        oauth2-spring-security
-
+```
 
 **Sr.No: 12 to 68 branch: https://github.com/Maninder416/codepractice.git**
 
