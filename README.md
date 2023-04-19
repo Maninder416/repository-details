@@ -1,6 +1,6 @@
 **Branch-Details:                                                       |        branch name and link**
 
-** Sr.No 1 to 2 branch regarding jenkins: https://github.com/Maninder416/spring-boot**
+**Sr.No 1 to 2 branch regarding jenkins: https://github.com/Maninder416/spring-boot**
 
 ```shell
 1. jenkins server with MySQL DB:                                        |        (feature/spring-boot-test-case-jenkins)
