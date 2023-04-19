@@ -177,3 +177,11 @@
 108. feature/spring-boot-crud-mysql-security                          |        feature/spring-boot-crud-mysql-security
 109. feature/spring-boot-crud-mysql-ldap-security                     |        feature/spring-boot-crud-mysql-ldap-security
 110. feature/spring-boot-crud-mysql-jwt-security                      |        feature/spring-boot-crud-mysql-jwt-security
+
+
+### Topics covered in this spring boot app:
+```shell
+1. Docker mysql running local spring boot app.
+2. Added spring security for CRUD operation and assign admin and
+default users.
+```
