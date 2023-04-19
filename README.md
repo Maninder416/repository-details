@@ -101,8 +101,9 @@
 
 **Sr.No: 69 branch: https://github.com/Maninder416/reactive-spring.git**
 
+```shell
 69. reactive-spring                                                    |        reactive-spring
-
+```
 
 **Sr.No: 70 to 71 branch: https://github.com/Maninder416/ci-cd-test.git**
 
