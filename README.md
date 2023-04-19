@@ -1,9 +1,11 @@
 **Branch-Details:                                                       |        branch name and link**
 
-**Sr.No 1 to 2 branch: https://github.com/Maninder416/spring-boot**
+### Sr.No 1 to 2 branch regarding jenkins: https://github.com/Maninder416/spring-boot
 
+```shell
 1. jenkins server with MySQL DB:                                        |        (feature/spring-boot-test-case-jenkins)
 2. jenkins server with H2 DB:                                           |        feature/spring-boot-test-case-jenkins-h2
+```
 
 **Sr.No: 3 to 9 branch: https://github.com/Maninder416/apache-kafka**
 
