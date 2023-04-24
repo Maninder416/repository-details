@@ -168,4 +168,5 @@
 109. feature/spring-boot-crud-mysql-ldap-security                     |        feature/spring-boot-crud-mysql-ldap-security
 110. feature/spring-boot-crud-mysql-jwt-security                      |        feature/spring-boot-crud-mysql-jwt-security
 111. feature/spring-boot-keyclock-new                                 |        feature/spring-boot-keyclock-new
+112. feature/spring-boot-profiles-yml                                 |        feature/spring-boot-profiles-yml
 ```
