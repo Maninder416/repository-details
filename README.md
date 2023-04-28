@@ -172,5 +172,5 @@
 113. feature/spring-boot-containers-integration-test-case             |        feature/spring-boot-containers-integration-test-case
 114. feature/spring-oauth-client-credentials                          |        feature/spring-oauth-client-credentials
 115. feature/spring-security-new-changes                              |        feature/spring-security-new-changes
-116. feature/spring-3.1.0-new-changes                                 |        feature/spring-3.1.0-new-changes
+116. feature/spring-security-new-changes-user-from-db                 |        feature/spring-security-new-changes-user-from-db
 ```
