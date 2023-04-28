@@ -162,7 +162,7 @@
 ```
 
   
-**Sr.No: 108 to 114 for spring security: branch: https://github.com/Maninder416/spring-boot.git**
+**Sr.No: 108 to 115 for spring security: branch: https://github.com/Maninder416/spring-boot.git**
 ```shell
 108. feature/spring-boot-crud-mysql-security                          |        feature/spring-boot-crud-mysql-security
 109. feature/spring-boot-crud-mysql-ldap-security                     |        feature/spring-boot-crud-mysql-ldap-security
@@ -171,4 +171,6 @@
 112. feature/spring-boot-profiles-yml                                 |        feature/spring-boot-profiles-yml
 113. feature/spring-boot-containers-integration-test-case             |        feature/spring-boot-containers-integration-test-case
 114. feature/spring-oauth-client-credentials                          |        feature/spring-oauth-client-credentials
+115. feature/spring-security-new-changes                              |        feature/spring-security-new-changes
+116. feature/spring-3.1.0-new-changes                                 |        feature/spring-3.1.0-new-changes
 ```
