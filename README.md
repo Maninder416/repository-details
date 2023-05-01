@@ -173,4 +173,5 @@
 114. feature/spring-oauth-client-credentials                          |        feature/spring-oauth-client-credentials
 115. feature/spring-security-new-changes                              |        feature/spring-security-new-changes
 116. feature/spring-security-new-changes-user-from-db                 |        feature/spring-security-new-changes-user-from-db
+117. feature/spring-boot-zipkin-sleuth                                |        feature/spring-boot-zipkin-sleuth
 ```
