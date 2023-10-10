@@ -177,4 +177,6 @@
 118. spring-boot-mysql-docker-compose-both                            |        spring-boot-mysql-docker-compose-both
 119. feature/ssl-simple-spring-boot-example                           |        feature/ssl-simple-spring-boot-example
 120. feature/spring-boot-mongo-crud                                   |        feature/spring-boot-mongo-crud
+121. feature/spring-kafka-stream-ksql-connector                       |        feature/spring-kafka-stream-ksql-connector
+
 ```
