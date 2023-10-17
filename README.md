@@ -179,5 +179,6 @@
 120. feature/spring-boot-mongo-crud                                   |        feature/spring-boot-mongo-crud
 121. feature/spring-kafka-stream-ksql-connector                       |        feature/spring-kafka-stream-ksql-connector
 122. spring-crud-openshift-deploy                                     |        spring-crud-openshift-deploy
+123. feature/kafka-filter-dsl                                         |        feature/kafka-filter-dsl
 
 ```
