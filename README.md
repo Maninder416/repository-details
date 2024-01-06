@@ -162,7 +162,7 @@
 ```
 
   
-**Sr.No: 108 to 118 for spring security: branch: https://github.com/Maninder416/spring-boot.git**
+**Sr.No: 108 to 123 for spring security: branch: https://github.com/Maninder416/spring-boot.git**
 ```shell
 108. feature/spring-boot-crud-mysql-security                          |        feature/spring-boot-crud-mysql-security
 109. feature/spring-boot-crud-mysql-ldap-security                     |        feature/spring-boot-crud-mysql-ldap-security
@@ -181,4 +181,9 @@
 122. spring-crud-openshift-deploy                                     |        spring-crud-openshift-deploy
 123. feature/kafka-filter-dsl                                         |        feature/kafka-filter-dsl
 
+```
+**Sr.No: 124 to 125 for important notes for daily routine: branch: https://github.com/Maninder416/important-notes**
+```shell
+124. copy data using http server                                      |        feature/http-server-copy-data
+125. important git commands                                           |        feature/git-merge-commit-commands
 ```
