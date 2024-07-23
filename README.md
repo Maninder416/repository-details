@@ -179,11 +179,12 @@
 120. feature/spring-boot-mongo-crud                                   |        feature/spring-boot-mongo-crud
 121. feature/spring-kafka-stream-ksql-connector                       |        feature/spring-kafka-stream-ksql-connector
 122. spring-crud-openshift-deploy                                     |        spring-crud-openshift-deploy
-123. feature/kafka-filter-dsl                                         |        feature/kafka-filter-dsl
+123. feature/kafka-filter-dsl                                         |        feature/kafka-filter-dslX
+124. feature/spring-boot-avro-serialization-deserialization-object    |        feature/spring-boot-avro-serialization-deserialization-object
 
 ```
 **Sr.No: 124 to 125 for important notes for daily routine: branch: https://github.com/Maninder416/important-notes**
 ```shell
-124. copy data using http server                                      |        feature/http-server-copy-data
-125. important git commands                                           |        feature/git-merge-commit-commands
+125. copy data using http server                                      |        feature/http-server-copy-data
+126. important git commands                                           |        feature/git-merge-commit-commands
 ```
