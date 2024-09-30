@@ -181,6 +181,9 @@
 122. spring-crud-openshift-deploy                                     |        spring-crud-openshift-deploy
 123. feature/kafka-filter-dsl                                         |        feature/kafka-filter-dslX
 124. feature/spring-boot-avro-serialization-deserialization-object    |        feature/spring-boot-avro-serialization-deserialization-object
+123. feature/spring-cqrs-pattern-kafka                                |        feature/spring-cqrs-pattern-kafka
+
+
 
 ```
 **Sr.No: 124 to 125 for important notes for daily routine: branch: https://github.com/Maninder416/important-notes**
