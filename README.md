@@ -182,6 +182,8 @@
 123. feature/kafka-filter-dsl                                         |        feature/kafka-filter-dslX
 124. feature/spring-boot-avro-serialization-deserialization-object    |        feature/spring-boot-avro-serialization-deserialization-object
 123. feature/spring-cqrs-pattern-kafka                                |        feature/spring-cqrs-pattern-kafka
+123. feature/eureka-server                                            |        feature/eureka-server
+
 
 
 
